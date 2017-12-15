@@ -22,7 +22,11 @@ or  <br>
 `git reset HEAD`
 
 ##### Reset a file to version at HEAD
-git checkout HEAD -- <file>
+`git checkout HEAD -- <file>`
+
+##### Reset local master to look exactly like remote head
+`git checkout master`
+`git reset --hard origin/master`
 
 
 
@@ -83,6 +87,4 @@ git commit --amend -m “<new msg>”
 
 ##### Remove a file from being tracked by git
 `git rm --cached <file name>`
-
-
 
