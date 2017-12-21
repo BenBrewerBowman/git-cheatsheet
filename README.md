@@ -25,8 +25,7 @@ or  <br>
 `git checkout HEAD -- <file>`
 
 ##### Reset local master to look exactly like remote head
-`git checkout master`
-`git reset --hard origin/master`
+`git checkout master && git reset --hard origin/master`
 
 
 
@@ -47,6 +46,9 @@ or  <br>
 ##### Pulls remote branch and checks it out
 `git fetch origin <branchName>	&& git checkout <branchName>`
 
+##### Delete remote branch
+`git push origin --delete <branchName>`
+
 
 
 ## Altering Commit History
@@ -58,8 +60,7 @@ or  <br>
 `git reset HEAD~<Xnum>`                  
 
 ##### Add more commits to the last commit and change the git message
-git add <all files to commit>
-git commit --amend -m “<new msg>”
+`git add <all files to commit> && git commit --amend -m “<new msg>”`
 
 ##### Remove previous commit (removes all changes as well)
 `git reset --hard HEAD~1`
