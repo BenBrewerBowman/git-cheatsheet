@@ -22,7 +22,7 @@ or  <br>
 `git reset HEAD`
 
 ##### Reset a file to version at HEAD
-`git checkout HEAD -- <file>`
+`git checkout HEAD -- <filename>`
 
 ##### Reset local master to look exactly like remote head
 `git checkout master && git reset --hard origin/master`
