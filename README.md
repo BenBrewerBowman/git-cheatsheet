@@ -35,7 +35,10 @@ or  <br>
 `git checkout <branch name>`
 
 ##### Create a new branch and check it out
-`git checkout -b "<branch name>"`
+`git checkout -b <branch name>`
+
+##### Rename a git branch
+`git branch -m <oldname> <newname>"`
 
 ##### View list of remote branches
 `git fetch --all`
