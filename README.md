@@ -79,8 +79,12 @@ or  <br>
 
 ##### Follow changes to a file including past renames
 `gitk --follow <filename>`
+
 ##### show entire history of a file (including beyond renames and diffs for all changes)
-`Git log --follow -p -- <filename>`
+`git log --follow -p -- <filename>`
+
+##### show changed files under git, without knowing the entire file path
+`git log -- */<filename>.<file extension>`
 
 
 
