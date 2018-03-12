@@ -27,7 +27,9 @@ or  <br>
 ##### Reset local master to look exactly like remote head
 `git checkout master && git reset --hard origin/master`
 
-
+##### Configure local repo username and email
+`git config user.name "<username>"`
+`git config user.email "<email>"`
 
 ## Branching
 
