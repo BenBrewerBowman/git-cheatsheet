@@ -12,6 +12,9 @@
 or  <br>
 `git add <filename>` (adds specific file) <br>
 
+##### Remove all staged changes
+`git reset`
+
 ##### Commit to git
 `git commit -m "<commit msg>"`
 
