@@ -21,7 +21,7 @@ or  <br>
 ##### Update previous commit message: 
 `git commit --amend -m “<new msg>”`
 
-##### Reset to remote HEAD
+##### Reset to last local commit at HEAD
 `git reset HEAD`
 
 ##### Reset a file to version at HEAD
